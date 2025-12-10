@@ -16,6 +16,7 @@
   line-height: 34px;
   letter-spacing: 0%;
   max-width: 738px;
+  color: gray;
 }
 .content__quote-author {
   font-family: "Inter";
@@ -25,6 +26,7 @@
   letter-spacing: 0%;
   text-align: right;
   max-width: 732px;
+  color: gray;
 }
 .content__description {
   font-family: "Inter";
@@ -33,4 +35,5 @@
   line-height: 163%;
   letter-spacing: 0%;
   max-width: 722px;
+  color: gray;
 }
