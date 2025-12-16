@@ -3,12 +3,10 @@
   padding-bottom: 24px;
   max-width: 166px;
 }
-.footer-text {
+.footer__text {
   text-align: right;
   font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0%;
-  color: gray;
 }

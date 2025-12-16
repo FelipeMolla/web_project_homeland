@@ -1,5 +1,9 @@
 .content {
   margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+  max-width: 830px;
+  justify-self: flex-start;
 }
 .content__title {
   font-family: "Inter";
@@ -8,32 +12,73 @@
   line-height: 58px;
   letter-spacing: 0%;
   max-width: 830px;
+  margin: 0 0 40px 0;
 }
 .content__quote {
   font-family: "Inter";
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  letter-spacing: 0%;
   max-width: 738px;
-  color: gray;
+  margin: 0 0 10px 0;
 }
 .content__quote-author {
   font-family: "Inter";
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  letter-spacing: 0%;
-  text-align: right;
+  align-self: flex-end;
   max-width: 732px;
-  color: gray;
+  margin: 0 0 31px 0;
 }
 .content__description {
   font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  letter-spacing: 0%;
   max-width: 722px;
-  color: gray;
+  margin: 0;
+}
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 0;
+    max-width: 720px;
+    max-height: 490;
+    margin: auto;
+  }
+  .content__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+  .content__quote .content__quote-author {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .content__description {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+@media screen and (max-width: 544px) {
+  .content {
+    padding: 0;
+    width: 288px;
+    margin: auto;
+  }
+  .content__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .content__quote {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .content__quote-author {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .content__description {
+    font-size: 16px;
+    line-height: 163%;
+  }
 }
