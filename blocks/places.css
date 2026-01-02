@@ -1,0 +1,10 @@
+.places {
+  margin-top: 118px;
+}
+.places__grid {
+  max-width: 92.5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+}
