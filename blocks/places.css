@@ -59,7 +59,7 @@
   margin-bottom: 48px;
 }
 .places__card-image:hover {
-  background: 50% #000;
+  opacity: 50%;
 }
 .places__card-text {
   grid-row: 2 / span 3;
@@ -93,7 +93,7 @@
   box-shadow: 5px 5px 10px 0px #00000040;
 }
 .places__card-button:hover {
-  background: 50% linear-gradient(to right, #004696 0%, #003067 100%);
+  background: 50% linear-gradient(to right, #004696 0%, #002147 100%);
 }
 @media (max-width: 1024px) {
   .places__grid {
@@ -118,6 +118,7 @@
     font-size: 42px;
     line-height: 46px;
     max-width: 460px;
+    margin-left: 16px;
   }
   .places__author-description {
     font-size: 12px;
@@ -136,11 +137,17 @@
   .places__card-image {
     max-width: 340px;
   }
+  .places__card-image:hover {
+    opacity: 50%;
+  }
   .places__card-button {
     font-size: 18px;
     line-height: 100%;
     padding: 13px 20px;
     max-width: 355px;
+  }
+  .places__card-button:hover {
+    background: 50% linear-gradient(to right, #004696 0%, #002147 100%);
   }
 }
 @media (max-width: 544px) {
@@ -195,5 +202,8 @@
     padding: 15px 21px;
     max-width: 85vw;
     margin: 30px auto 0 auto;
+  }
+  .places__card-button:hover {
+    background: 50% linear-gradient(to right, #004696 0%, #003067 100%);
   }
 }
