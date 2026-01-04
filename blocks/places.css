@@ -31,6 +31,9 @@
   font-size: 18px;
   line-height: 22px;
   margin-top: auto;
+  display: flex;
+  align-items: flex start;
+  flex-direction: column;
 }
 .places__author-description {
   font-family: "Inter", Arial, sans-serif;
