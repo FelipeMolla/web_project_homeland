@@ -4,13 +4,12 @@
 .places__grid {
   max-width: 100vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
   gap: 16px;
 }
 .places__grid-image {
-  /* max-width: 22.2vw; */
-  max-width: 100%;
+  max-width: 22.2vw;
   object-fit: cover;
 }
 .places__cards {
@@ -107,7 +106,7 @@
   .places__grid-image {
     size: cover;
     margin: 0;
-    width: 100%;
+    max-width: 100%;
   }
   .places__cards {
     gap: 72px;
